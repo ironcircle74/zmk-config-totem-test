@@ -112,7 +112,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <190>;
             quick-tap-ms = <100>;
             flavor = "tap-preferred";
         };
@@ -176,10 +176,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                   &kp C_AC_BACK  &kp C_AC_FORWARD  &trans        &kp BACKSPACE  &kp PRINTSCREEN    &kp PLUS         &mt AMPERSAND N7          &mt LS(N8) N8         &kp N9                     &kp BACKSPACE
-                   &kp LEFT       &kp DOWN          &kp UP_ARROW  &kp RIGHT      &kp F2             &mt UNDER MINUS  &mt DOLLAR NUMBER_4       &mt PERCENT N5        &mt LS(NUMBER_6) NUMBER_6  &kp ENTER
-&kp C_MENU_ESCAPE  &kp DEL        &kp PAGE_DOWN     &kp PAGE_UP   &kp CAPS       &trans             &kp EQUAL        &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3          &kp COMMA      &kp LEFT_SHIFT
-                                                    &trans        &trans         &trans             &kp SPACE        &kp N0                    &kp DOT
+                   &kp C_AC_BACK  &kp C_AC_FORWARD  &kp UP       &kp BACKSPACE  &kp PRINTSCREEN    &kp PLUS         &mt AMPERSAND N7          &mt LS(N8) N8         &kp N9                     &kp BACKSPACE
+                   &none          &kp LEFT          &kp DOWN     &kp RIGHT      &kp F2             &mt UNDER MINUS  &mt DOLLAR NUMBER_4       &mt PERCENT N5        &mt LS(NUMBER_6) NUMBER_6  &kp ENTER
+&kp C_MENU_ESCAPE  &kp DEL        &kp PAGE_DOWN     &kp PAGE_UP  &kp CAPS       &trans             &kp EQUAL        &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3          &kp COMMA      &kp LEFT_SHIFT
+                                                    &trans       &trans         &trans             &kp SPACE        &kp N0                    &kp DOT
             >;
         };
 
@@ -200,9 +200,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &none   &kp N7        &kp N8        &kp N9        &kp BACKSPACE    &none   &none     &none           &none         &none
-                &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none            &none   &kp LEFT  &kp DOWN        &kp UP_ARROW  &kp RIGHT
-&kp LEFT_SHIFT  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT          &none   &none     &msc SCRL_DOWN  &msc SCRL_UP  &none      &trans
+                &none   &kp N7        &kp N8        &kp N9        &kp BACKSPACE    &none   &none     &kp UP          &none         &none
+                &none   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none            &none   &kp LEFT  &kp DOWN        &kp RIGHT     &none
+&kp LEFT_SHIFT  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT          &none   &none     &msc SCRL_DOWN  &msc SCRL_UP  &none  &trans
                                       &trans        &gif          &trans           &trans  &none     &trans
             >;
         };
