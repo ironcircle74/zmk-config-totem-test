@@ -153,9 +153,9 @@
 
             bindings = <
                 &kp Q    &kp W           &kp E           &kp R               &kp T                     &kp Y                    &kp U               &kp I           &kp O           &kp P
-                &lt 6 A  &hm LEFT_GUI S  &mt LEFT_ALT D  &hm LEFT_CONTROL F  &kp G                     &kp H                    &hm LEFT_CONTROL J  &hm LEFT_ALT K  &hm LEFT_GUI L  &mt SQT SEMICOLON
+                &lt 5 A  &hm LEFT_GUI S  &mt LEFT_ALT D  &hm LEFT_CONTROL F  &kp G                     &kp H                    &hm LEFT_CONTROL J  &hm LEFT_ALT K  &hm LEFT_GUI L  &mt SQT SEMICOLON
 &kp LEFT_SHIFT  &kp Z    &kp X           &kp C           &kp V               &mt LEFT_PARENTHESIS B    &mt RIGHT_PARENTHESIS N  &kp M               &kp COMMA       &kp DOT         &kp FSLH           &kp RIGHT_SHIFT
-                                         &mo 5           &lt 1 SPACE         &lt 2 SPACE               &lt 3 TAB                &lt 4 ENTER         &kp ESC
+                                         &mo 6           &lt 1 SPACE         &lt 2 SPACE               &lt 3 TAB                &lt 4 ENTER         &kp ESC
             >;
         };
 
@@ -176,10 +176,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                   &kp C_AC_BACK  &kp C_AC_FORWARD  &kp UP       &kp BACKSPACE  &kp PRINTSCREEN    &kp PLUS         &mt AMPERSAND N7          &mt LS(N8) N8         &kp N9                     &kp BACKSPACE
-                   &none          &kp LEFT          &kp DOWN     &kp RIGHT      &kp F2             &mt UNDER MINUS  &mt DOLLAR NUMBER_4       &mt PERCENT N5        &mt LS(NUMBER_6) NUMBER_6  &kp ENTER
-&kp C_MENU_ESCAPE  &kp DEL        &kp PAGE_DOWN     &kp PAGE_UP  &kp CAPS       &trans             &kp EQUAL        &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3          &kp COMMA      &kp LEFT_SHIFT
-                                                    &trans       &trans         &trans             &kp SPACE        &kp N0                    &kp DOT
+                   &kp C_AC_BACK     &kp C_AC_HOME  &kp UP       &kp END    &kp BACKSPACE      &kp PLUS         &mt AMPERSAND N7          &mt LS(N8) N8         &kp N9                     &kp BACKSPACE
+                   &kp C_AC_FORWARD  &kp LEFT       &kp DOWN     &kp RIGHT  &kp F2             &mt UNDER MINUS  &mt DOLLAR NUMBER_4       &mt PERCENT N5        &mt LS(NUMBER_6) NUMBER_6  &kp ENTER
+&kp C_MENU_ESCAPE  &kp DEL           &kp PAGE_DOWN  &kp PAGE_UP  &kp CAPS   &kp PRINTSCREEN    &kp EQUAL        &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3          &kp COMMA      &kp LEFT_SHIFT
+                                                    &trans       &trans     &trans             &kp SPACE        &kp N0                    &kp DOT
             >;
         };
 
@@ -257,10 +257,10 @@
 
         Mouse {
             bindings = <
-        &msc SCRL_DOWN  &msc SCRL_UP  &trans  &trans  &trans    &trans          &trans          &trans          &trans        &trans
-        &trans          &trans        &trans  &trans  &trans    &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
-&trans  &trans          &trans        &trans  &trans  &trans    &msc SCRL_DOWN  &mkp MCLK       &mkp LCLK       &mkp RCLK     &trans           &trans
-                                      &trans  &trans  &trans    &trans          &trans          &trans
+        &none   &none           &trans        &trans  &trans    &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans
+        &trans  &trans          &trans        &trans  &trans    &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none
+&trans  &trans  &msc SCRL_DOWN  &msc SCRL_UP  &trans  &trans    &none   &none           &mkp MCLK       &none            &trans  &trans
+                                &trans        &trans  &trans    &trans  &mkp LCLK       &trans
             >;
         };
 
