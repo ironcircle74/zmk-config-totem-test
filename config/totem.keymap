@@ -25,7 +25,7 @@
     quick-tap-ms = <100>;
     global-quick-tap;
     flavor = "tap-preferred";
-    tapping-term-ms = <170>;
+    tapping-term-ms = <180>;
 };
 
 / {
@@ -85,6 +85,11 @@
         Del {
             bindings = <&kp DELETE>;
             key-positions = <33 20>;
+        };
+
+        CapsLock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <33 13>;
         };
     };
 
@@ -176,7 +181,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                   &kp C_AC_BACK     &kp C_AC_HOME  &kp UP       &kp END    &kp BACKSPACE      &kp PLUS         &mt AMPERSAND N7          &mt LS(N8) N8         &kp N9                     &kp BACKSPACE
+                   &kp C_AC_BACK     &kp HOME       &kp UP       &kp END    &kp BACKSPACE      &kp PLUS         &mt AMPERSAND N7          &mt LS(N8) N8         &kp N9                     &kp BACKSPACE
                    &kp C_AC_FORWARD  &kp LEFT       &kp DOWN     &kp RIGHT  &kp F2             &mt UNDER MINUS  &mt DOLLAR NUMBER_4       &mt PERCENT N5        &mt LS(NUMBER_6) NUMBER_6  &kp ENTER
 &kp C_MENU_ESCAPE  &kp DEL           &kp PAGE_DOWN  &kp PAGE_UP  &kp CAPS   &kp PRINTSCREEN    &kp EQUAL        &mt EXCLAMATION NUMBER_1  &mt AT_SIGN NUMBER_2  &mt HASH NUMBER_3          &kp COMMA      &kp LEFT_SHIFT
                                                     &trans       &trans     &trans             &kp SPACE        &kp N0                    &kp DOT
