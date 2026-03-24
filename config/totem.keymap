@@ -157,10 +157,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                    &kp Q    &kp W           &kp E               &kp R             &kp T                     &kp Y                    &kp U             &kp I               &kp O           &kp P
-                    &lt 5 A  &hm LEFT_ALT S  &mt LEFT_CONTROL D  &hm LEFT_SHIFT F  &hm LEFT_GUI G            &hm LEFT_GUI H           &hm LEFT_SHIFT J  &hm LEFT_CONTROL K  &hm LEFT_ALT L  &mt SQT SEMICOLON
-&hm LEFT_SHIFT ESC  &kp Z    &kp X           &kp C               &kp V             &mt LEFT_PARENTHESIS B    &mt RIGHT_PARENTHESIS N  &kp M             &kp COMMA           &kp DOT         &kp FSLH           &kp RIGHT_SHIFT
-                                             &mo 6               &lt 1 SPACE       &lt 2 TAB                 &lt 3 TAB                &lt 4 ENTER       &kp ESC
+                &kp Q    &kp W           &kp E               &kp R             &kp T                     &kp Y                    &kp U             &kp I               &kp O           &kp P
+                &lt 5 A  &hm LEFT_ALT S  &mt LEFT_CONTROL D  &hm LEFT_SHIFT F  &hm LEFT_GUI G            &hm LEFT_GUI H           &hm LEFT_SHIFT J  &hm LEFT_CONTROL K  &hm LEFT_ALT L  &mt SQT SEMICOLON
+&kp LEFT_SHIFT  &kp Z    &kp X           &kp C               &kp V             &mt LEFT_PARENTHESIS B    &mt RIGHT_PARENTHESIS N  &kp M             &kp COMMA           &kp DOT         &kp FSLH           &kp RIGHT_SHIFT
+                                         &mo 6               &lt 1 SPACE       &lt 2 TAB                 &lt 3 TAB                &lt 4 ENTER       &kp ESC
             >;
         };
 
